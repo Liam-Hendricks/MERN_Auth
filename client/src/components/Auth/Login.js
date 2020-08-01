@@ -7,6 +7,7 @@ import { toast } from 'react-toastify';
 import {Row,Col, Container} from 'react-bootstrap';
 import 'react-toastify/dist/ReactToastify.min.css';
 import jwt_decode from "jwt-decode";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import axios from 'axios';
 //Login Component

@@ -59,7 +59,7 @@ const isAuth = () => {
     if (window !== "undefined") {
         
         // Make sure we can grab the cookie
-        const cookieChecked = getCookie();
+        const cookieChecked = getCookie('token');
         
         if (cookieChecked) {
             if(localStorage.getItem('user')) {
